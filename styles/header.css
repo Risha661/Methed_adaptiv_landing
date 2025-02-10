@@ -1,0 +1,86 @@
+.header {
+  background: rgba(47, 50, 75, 0.85);
+  background-image: url("../images/present_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  padding: 40px  0 120px 0;
+}
+
+.header__navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container--header {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section__header {
+  font-family: "Roboto Bold", sans-serif;
+  text-align: center;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.phone {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone__number {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.phone__call-btn {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 19px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.phone-icon {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .header {
+      background-size: cover;
+      padding-top: 26px;
+  }
+
+
+}
+
+@media (max-width: 320px) {
+  .header {
+      background-size: cover;
+      padding-top: 15px;
+  }
+
+  .phone {
+    display: none;
+  }
+
+  .phone-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+  }
+}
