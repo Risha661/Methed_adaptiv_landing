@@ -35,12 +35,12 @@
 
 .present__button {
   padding: 12px 48px;
-  background-color: #15A9CB;
+  background-color: var(--dark-blue);
   border: none;
   border-radius: 25px;
   transition: box-shadow 0.3s ease;
   cursor: pointer;
-  color: #FFF;
+  color: var(--white);
 }
 
 .present__button-text {

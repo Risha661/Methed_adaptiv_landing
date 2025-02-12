@@ -1,5 +1,5 @@
 .footer {
-  background: #2f324b;
+  background: var(--dark-grey);
   padding: 0;
 }
 
@@ -102,7 +102,7 @@
     order: 1;
     width: 100%;
     padding: 15px 0;
-    background-color: #2A2C3F;
+    background-color: var(--light-black);
   }
 
   .phone--footer {

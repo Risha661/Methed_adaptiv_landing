@@ -18,8 +18,8 @@ body {
   font-size: 18px;
   font-weight: 400;
   text-align: center;
-  color: #fff;
-  background-color: #fff;
+  color: var(--white);
+  background-color: var(--white);
 }
 
 .section {
