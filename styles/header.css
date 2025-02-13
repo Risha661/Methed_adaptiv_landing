@@ -1,10 +1,14 @@
 .header {
-  background: rgba(47, 50, 75, 0.85);
-  background-image: url("../images/present_bg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-blend-mode: multiply;
-  padding: 40px 30px 120px 30px;
+  background: transparent;
+  padding-top: 40px;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.container--header {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .header__logo {
@@ -21,7 +25,6 @@
 }
 
 .section__header {
-  font-family: "Roboto Bold", sans-serif;
   text-align: center;
   font-size: 34px;
   font-style: normal;
@@ -35,7 +38,6 @@
 }
 
 .phone__number {
-  font-family: "Roboto", sans-serif;
   text-align: center;
   font-size: 24px;
   font-style: normal;
@@ -60,10 +62,24 @@
   display: none;
 }
 
+@media (min-width: 1024px) and (max-width: 1500px) {
+  .container--header {
+    max-width: 964px;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+}
+
 @media (max-width: 1024px) {
   .header {
       background-size: cover;
-      padding: 26px 30px 70px 30px;
+      padding: 26px 0 0 0;
+  }
+
+  .container--header {
+    max-width: 964px;
+    margin: 0 auto;
+    padding: 0 30px;
   }
 
   .header__logo {
@@ -77,6 +93,12 @@
     display: none;
   }
 
+  .container--header {
+    max-width: 490px;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+
   .phone-icon {
     display: inline-block;
     width: 24px;
@@ -87,7 +109,13 @@
 @media (max-width: 320px) {
   .header {
       background-size: cover;
-      padding: 15px 15px 65px 15px;
+      padding: 15px 0 0 0;
+  }
+
+  .container--header {
+    max-width: 290px;
+    margin: 0 auto;
+    padding: 0 15px;
   }
 
   .phone {

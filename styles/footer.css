@@ -1,6 +1,6 @@
 .footer {
   background: var(--dark-grey);
-  padding: 0;
+  padding: 45px 0;
 }
 
 .container--footer {
@@ -8,15 +8,12 @@
   flex-direction: row;
   justify-content: space-between;
   align-content: center;
-  padding: 45px 0;
 }
 
 .copyright {
   display: flex;
   align-items: center;
   gap: 19px;
-
-  font-family: "Roboto Medium", sans-serif;
   font-size: 12px;
   font-weight: 500;
 }
@@ -28,8 +25,8 @@
 }
 
 .footer__created {
-  color: rgba(255, 255, 255, 0.75);
-  font-family: "Roboto Medium", sans-serif;
+  font-family: "Roboto Medium";
+  color: var(--white);
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
@@ -46,15 +43,15 @@
   height: 68px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 700px) and (max-width: 1500px) {
   .container--footer {
-    padding: 37px 30px 49px 30px;
+    padding: 0 30px;
   }
 }
 
 @media (max-width: 1024px) {
-  .container--footer {
-    padding: 37px 30px 49px 30px;
+  .footer__created {
+    color: rgba(255, 255, 255, 0.75);
   }
 
   .created {
@@ -71,8 +68,6 @@
   }
 }
 
-
-
 @media (max-width: 700px) {
   .footer, .container--footer {
     padding: 0;
@@ -87,7 +82,10 @@
   }
 
   .phone-icon--footer {
+    display: block;
     margin-right: 30px;
+    width: 30px;
+    height: 30px;
   }
 
   .copyright {
@@ -108,15 +106,13 @@
   .phone--footer {
     display: none;
   }
-
-  .phone-icon--footer {
-    display: block;
-    height: 45px;
-    width: 45px;
-  }
 }
 
 @media (max-width: 440px) {
+  .container--footer {
+    padding: 0;
+  }
+  
   .footer .container {
     max-width: 100%;
   }
@@ -127,6 +123,8 @@
 
   .phone-icon--footer {
     margin-right: 15px;
+    width: 24px;
+    height: 24px;
   }
 
   .copyright__text {
@@ -134,10 +132,10 @@
     font-size: 8px;
     line-height: 140%;
   }
+}
 
-  .phone-icon--footer {
-    display: block;
-    height: 24px;
-    width: 24px;
+@media (max-width: 320px) {
+  .container--footer {
+    padding: 0;
   }
 }
