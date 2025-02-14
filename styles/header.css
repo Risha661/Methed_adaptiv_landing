@@ -67,7 +67,6 @@
   .container--header {
     max-width: 964px;
     margin: 0 auto;
-    padding: 0 30px;
   }
 }
 
@@ -80,12 +79,22 @@
   .container--header {
     max-width: 964px;
     margin: 0 auto;
-    padding: 0 30px;
   }
 
   .header__logo {
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .phone__number-link {
+    font-size: 21px;
+    line-height: 23px;
+  }
+
+  .phone__call-btn {
+    font-size: 13px;
+    line-height: 15px;
+    text-underline-offset: 6px;
   }
 }
 

@@ -94,18 +94,20 @@
   
   .present__text {
     font-size: 18px;
-    line-height: 140%;
-    max-width: 665px;
-    margin-bottom: 60px;
+    line-height: 141%;
+    max-width: 830px;
+    margin-bottom: 57px;
   }
 
+  .present__text-two {}
+
   .present__button {
-    padding: 11px 49px;
+    padding: 11px 48px;
   }
   
   .present__button-text {
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 21px;
+    line-height: 25px;
   }
 }
 

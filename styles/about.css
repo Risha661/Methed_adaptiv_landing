@@ -134,7 +134,7 @@
 @media (max-width: 1024px) {
   .about {
     background-color: var(--white-darkened);
-    padding: 70px 0;
+    padding: 66px 0 76px;
   }
 
   .container--about {
@@ -145,13 +145,13 @@
   .section__title {
     font-size: 32px;
     line-height: 47px;
-    margin-bottom: 23px;
+    margin-bottom: 20px;
   }
 
   .section__into-header {
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 33px;
+    margin-bottom: 30px;
   }
 
   .section__into-header--about::before,
@@ -161,7 +161,7 @@
   }
 
   .section__into-header--about::before {
-    margin-right: 22px;
+    margin-right: 18px;
   }
 
   .section__into-header--about::after {
@@ -183,9 +183,21 @@
   }
 
   .about__item-text {
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 19px;
+    line-height: 24px;
     max-width: 180px;
+  }
+
+  .about__item-circle--one:before,
+  .about__item-circle--two:before,
+  .about__item-circle--three:before,
+  .about__item-circle--four:before {
+    top: 50%;
+  }
+
+  .about__item-circle--text {
+    font-size: 50px;
+    line-height: 49px;
   }
 }
 
