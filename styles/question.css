@@ -182,27 +182,31 @@
   }
 
   .container--section {
-    max-width: 290px;
+    padding: 0 15px;
   }
 
   .section__title-bottom {
-    margin-bottom: 11px;
-  }
+    margin-bottom: 13px;
+    margin-left: -2px;
+}
 
   .question__fieldset {
-    padding: 35px 0 45px 0;
-    gap: 15px;
+    padding: 35px 0 44px 0;
+    gap: 13px;
     max-width: 290px;
   }
 
   .question__form {
     max-width: 290px;
+    padding: 0;
   }
 
   .question__input {
     padding: 6px 18px;
     font-size: 20px;
     line-height: 23px;
+    font-size: 14px;
+    line-height: 16px;
   }
 
   .question__button {
@@ -212,12 +216,15 @@
   
   .question__button-text {
     font-size: 16px;
-    line-height: 18px;
+    line-height: 18.75px;
+    text-transform: none;
   }
 
-  .question__button-text {
-    font-size: 11px;
-    line-height: 13px;
+  .question__text-bottom {
+    padding: 0;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 500;
   }
 
   .question__agreement {
