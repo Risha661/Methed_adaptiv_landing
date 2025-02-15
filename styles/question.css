@@ -104,7 +104,7 @@
 
 @media (max-width: 1024px) {
   .question {
-    padding: 70px 0 56px 0;
+    padding: 64px 0 56px 0;
   }
 
   .container--section {
@@ -113,8 +113,16 @@
   }
 
   .section__title-bottom {
-    margin-bottom: 16px;
+    margin-bottom: 10px;
+    margin-left: -9px;
   }
+
+  .question__text-bottom {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    padding-left: 15px;
+}
 
   .question__form {
     max-width: 780px;
@@ -127,12 +135,14 @@
   }
 
   .question__fieldset {
-    gap: 20px;
+    padding: 48px 0;
+    gap: 18px;
     max-width: 379px;
   }
 
   .question__button {
     margin-bottom: 30px;
+    padding: 13px 38px;
   }
   
   .question__button-text {
@@ -141,8 +151,8 @@
   }
 
   .question__button-text {
-    font-size: 17px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 23px;
   }
 
   .question__agreement {
